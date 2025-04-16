@@ -27,9 +27,11 @@ void ComicsInfoUpdater::startUpdate()
         return;
     }
 
-    QNetworkRequest request(Settings::instance()->getUpdaterUrl());
-    auto reply = m_NAM->get(request);
-    connect(reply, &QNetworkReply::finished, this, &ComicsInfoUpdater::updateDownloaded);
+    // QNetworkRequest request(Settings::instance()->getUpdaterUrl());
+    // auto reply = m_NAM->get(request);
+    // connect(reply, &QNetworkReply::finished, this, &ComicsInfoUpdater::updateDownloaded);
+    QJsonDocument doc;
+    emit gotUpdateInfo(doc);
 }
 
 void ComicsInfoUpdater::updateDownloaded()
