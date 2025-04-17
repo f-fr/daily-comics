@@ -5,6 +5,6 @@
   "authors": [
     "Philippe Chappuis \"Zep\""
   ],
-  "homepage": "http://zepworld.blog.lemonde.fr/",
-  "stripSource": "http://zepworld.blog.lemonde.fr/feed/atom/"
+  "homepage": "https://www.lemonde.fr/blog/zepworld/",
+  "stripSource": "https://www.lemonde.fr/blog/zepworld/feed/atom/"
 }
