@@ -6,5 +6,6 @@
     "Nicholas Gurewitch"
   ],
   "homepage": "https://pbfcomics.com/",
-  "stripSource": "https://pbfcomics.com/"
+  "stripSource": "https://pbfcomics.com/",
+  "extractRegex": "<img[^>]*src='([^']*/wp-content/uploads/[^']*/PBF[^']*)'"
 }

@@ -6,5 +6,6 @@
     "Jim Davis"
   ],
   "homepage": "https://www.gocomics.com/garfield",
-  "stripSource": "https://www.gocomics.com/garfield"
+  "stripSource": "https://www.gocomics.com/garfield",
+  "extractRegex": "imageSrcSet=\"(http[^\" ?]+)"
 }

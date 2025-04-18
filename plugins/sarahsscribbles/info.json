@@ -6,5 +6,6 @@
     "Sarah Andersen"
   ],
   "homepage": "https://sarahcandersen.com/",
-  "stripSource": "https://sarahcandersen.com/rss"
+  "stripSource": "https://sarahcandersen.com/rss",
+  "extractRegex": "&lt;img[^&]*src=\"([^\"]*media.tumblr.com/[^\"]*)\""
 }

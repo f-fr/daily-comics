@@ -6,5 +6,6 @@
     "Bill Amend"
   ],
   "homepage": "https://foxtrot.com/",
-  "stripSource": "https://www.gocomics.com/foxtrot"
+  "stripSource": "https://www.gocomics.com/foxtrot",
+  "extractRegex": "imageSrcSet=\"(http[^\" ?]+)"
 }

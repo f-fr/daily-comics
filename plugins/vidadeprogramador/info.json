@@ -6,5 +6,6 @@
     "André Noel"
   ],
   "homepage": "https://vidadeprogramador.com.br/",
-  "stripSource": "https://vidadeprogramador.com.br/feed.xml"
+  "stripSource": "https://vidadeprogramador.com.br/feed.xml",
+  "extractRegex": "<img[^>]*src=\"([^\"]*/uploads/[^\"]*/tirinha[^\"]*)\""
 }

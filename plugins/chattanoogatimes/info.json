@@ -5,8 +5,9 @@
   "authors": [
     "Clay Bennett",
     "Lisa Benson",
-    "Michael Ramirez"    
+    "Michael Ramirez"
   ],
   "homepage": "https://www.timesfreepress.com/cartoons/",
-  "stripSource": "https://www.timesfreepress.com/cartoons/"
+  "stripSource": "https://www.timesfreepress.com/cartoons/",
+  "extractRegex": "<img[^>]* data-srcset=\"([^ \"]+)[ \"]"
 }

@@ -6,5 +6,6 @@
     "Dan Martin"
   ],
   "homepage": "http://www.deathbulge.com",
-  "stripSource": "http://www.deathbulge.com"
+  "stripSource": "http://www.deathbulge.com",
+  "extractRegex": "<meta property=\"og:image\" content=\"([^\"]*)\""
 }

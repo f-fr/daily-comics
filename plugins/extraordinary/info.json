@@ -6,5 +6,6 @@
     "Li Chen"
   ],
   "homepage": "https://www.exocomics.com/",
-  "stripSource": "https://www.exocomics.com/"
+  "stripSource": "https://www.exocomics.com/",
+  "extractRegex": "<meta property=\"og:image\" *content=\"([^\"]*)\""
 }

@@ -6,5 +6,6 @@
     "Chris McCoy"
   ],
   "homepage": "https://safelyendangered.com/",
-  "stripSource": "https://safelyendangered.com/"
+  "stripSource": "https://safelyendangered.com/",
+  "extractRegex": "<div id=\"comic\">\\s*<img[^>]*src=\"([^\"]*/wp-content/uploads/[^\"]*)\""
 }

@@ -6,5 +6,6 @@
     "Mark Retera"
   ],
   "homepage": "https://dirkjan.nl/",
-  "stripSource": "https://dirkjan.nl/"
+  "stripSource": "https://dirkjan.nl/",
+  "extractRegex": "<img[^>]*src=\"([^\"]*/wp-content/uploads/[^\"]*)\""
 }

@@ -6,5 +6,6 @@
     "Jimmy Craig"
   ],
   "homepage": "https://theycantalk.com/",
-  "stripSource": "https://theycantalk.com/rss"
+  "stripSource": "https://theycantalk.com/rss",
+  "extractRegex": "&lt;img[^&]*src=\"([^\"]*media.tumblr.com[^\"]*)\""
 }

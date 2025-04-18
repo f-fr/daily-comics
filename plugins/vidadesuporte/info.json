@@ -6,5 +6,6 @@
     "André Farias"
   ],
   "homepage": "https://vidadesuporte.com.br/",
-  "stripSource": "https://vidadesuporte.com.br/"
+  "stripSource": "https://vidadesuporte.com.br/",
+  "extractRegex": "<img[^>]+src=\"([^\"]*wp-content/uploads/[^\"]*Suporte[^\"]+)\""
 }

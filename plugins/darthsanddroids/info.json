@@ -13,5 +13,6 @@
     "Steven Irrgang"
   ],
   "homepage": "https://www.darthsanddroids.net/",
-  "stripSource": "https://www.darthsanddroids.net/rss_noannotation.xml"
+  "stripSource": "https://www.darthsanddroids.net/rss_noannotation.xml",
+  "extractRegex": "src=&quot;([^&]*/comics/[^&]*)&quot;"
 }

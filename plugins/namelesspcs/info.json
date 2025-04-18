@@ -6,5 +6,6 @@
     "Wesley Hall"
   ],
   "homepage": "https://namelesspcs.com/",
-  "stripSource": "https://namelesspcs.com/"
+  "stripSource": "https://namelesspcs.com/",
+  "extractRegex": "<div id=\"comic\">\\s*<img[^>]*src=\"([^\"]*/wp-content/uploads/[^\"]*)\""
 }

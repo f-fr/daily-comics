@@ -7,5 +7,6 @@
     "Michael Martin"
   ],
   "homepage": "https://www.gocomics.com/fredbasset",
-  "stripSource": "https://www.gocomics.com/fredbasset"
+  "stripSource": "https://www.gocomics.com/fredbasset",
+  "extractRegex": "imageSrcSet=\"(http[^\" ?]+)"
 }

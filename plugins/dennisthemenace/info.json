@@ -8,5 +8,6 @@
     "Ron Ferdinand"
   ],
   "homepage": "https://comicskingdom.com/dennis-the-menace",
-  "stripSource": "https://comicskingdom.com/dennis-the-menace"
+  "stripSource": "https://comicskingdom.com/dennis-the-menace",
+  "extractRegex": "\"single\":\\{\"url\":\"(https:[^\"]+)"
 }

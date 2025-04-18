@@ -6,5 +6,6 @@
     "Stephan Pastis"
   ],
   "homepage": "https://www.gocomics.com/pearlsbeforeswine",
-  "stripSource": "https://www.gocomics.com/pearlsbeforeswine"
+  "stripSource": "https://www.gocomics.com/pearlsbeforeswine",
+  "extractRegex": "imageSrcSet=\"(http[^\" ?]+)"
 }

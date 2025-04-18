@@ -6,5 +6,6 @@
     "Chris Grady"
   ],
   "homepage": "http://www.lunarbaboon.com/",
-  "stripSource": "http://www.lunarbaboon.com/"
+  "stripSource": "http://www.lunarbaboon.com/",
+  "extractRegex": "<img[^>]*src=\"(/storage/[^\"]*)\""
 }

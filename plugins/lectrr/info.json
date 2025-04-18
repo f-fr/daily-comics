@@ -6,5 +6,6 @@
     "Lectrr"
   ],
   "homepage": "https://lectrr.be/",
-  "stripSource": "https://www.standaard.be/foto"
+  "stripSource": "https://www.standaard.be/foto",
+  "extractRegex": "data-vr-contentbox=\"Lectrr, cartoon van de dag\".+?<img[^>]+src=\"([^\"]+.jpg)\".+?<span>Lectrr, cartoon van de dag</span>"
 }

@@ -6,5 +6,6 @@
     "Ey Lou Flynn"
   ],
   "homepage": "https://islieb.de/",
-  "stripSource": "https://islieb.de/feed/"
+  "stripSource": "https://islieb.de/feed/",
+  "extractRegex": "<img[^>]*src=\"([^\"]*/wp-content/uploads/[^\"]*)\""
 }

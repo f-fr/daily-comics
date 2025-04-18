@@ -6,5 +6,6 @@
     "Zach Weinersmith"
   ],
   "homepage": "http://www.smbc-comics.com/",
-  "stripSource": "http://www.smbc-comics.com/"
+  "stripSource": "http://www.smbc-comics.com/",
+  "extractRegex": "<img[^>]*src=\"([^\"]*)\" id=\"cc-comic\""
 }

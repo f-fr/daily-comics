@@ -6,5 +6,6 @@
     "Richard Thompson"
   ],
   "homepage": "https://www.gocomics.com/culdesac",
-  "stripSource": "https://www.gocomics.com/culdesac"
+  "stripSource": "https://www.gocomics.com/culdesac",
+  "extractRegex": "imageSrcSet=\"(http[^\" ?]+)"
 }

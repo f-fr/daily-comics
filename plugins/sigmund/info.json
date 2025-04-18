@@ -6,5 +6,6 @@
     "Peter de Wit"
   ],
   "homepage": "https://sigmund.nl/",
-  "stripSource": "https://sigmund.nl/?p=home"
+  "stripSource": "https://sigmund.nl/?p=home",
+  "extractRegex": "<img[^>]+id=\"strook\"[^>]+src=\"(https:[^\"]+)"
 }

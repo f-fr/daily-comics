@@ -6,5 +6,6 @@
     "Tatsuya Ishida"
   ],
   "homepage": "https://sinfest.xyz/",
-  "stripSource": "https://sinfest.xyz/"
+  "stripSource": "https://sinfest.xyz/",
+  "extractRegex": "<img[^>]*src=\"([^\"]*/comics/[^\"]*)\""
 }

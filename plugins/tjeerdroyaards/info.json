@@ -6,5 +6,6 @@
     "Tjeerd Royaards"
   ],
   "homepage": "https://tjeerdroyaards.typepad.com/my-blog/about.html",
-  "stripSource": "https://tjeerdroyaards.typepad.com/"
+  "stripSource": "https://tjeerdroyaards.typepad.com/",
+  "extractRegex": "<img[^>]+src=\"([^\"]*/\\\\.a/[^\"]+)\""
 }

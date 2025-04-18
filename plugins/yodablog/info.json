@@ -6,5 +6,6 @@
     "Thierry Vivien"
   ],
   "homepage": "http://www.yodablog.net/",
-  "stripSource": "http://www.yodablog.net/?feed=rss2"
+  "stripSource": "http://www.yodablog.net/?feed=rss2",
+  "extractRegex": "<img[^>]*src=\"([^\"]*/wp-content/uploads/[^\"]*)\""
 }

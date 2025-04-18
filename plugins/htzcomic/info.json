@@ -6,5 +6,6 @@
     "Albert Gonzalez"
   ],
   "homepage": "http://www.htzcomic.com/",
-  "stripSource": "http://www.htzcomic.com/"
+  "stripSource": "http://www.htzcomic.com/",
+  "extractRegex": "<img[^>]*src=\"(http://www.htzcomic.com/comics/[^\"]*)\""
 }

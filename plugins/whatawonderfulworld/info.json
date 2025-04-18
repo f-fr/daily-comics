@@ -6,5 +6,6 @@
     "Philippe Chappuis \"Zep\""
   ],
   "homepage": "https://www.lemonde.fr/blog/zepworld/",
-  "stripSource": "https://www.lemonde.fr/blog/zepworld/feed/atom/"
+  "stripSource": "https://www.lemonde.fr/blog/zepworld/feed/atom/",
+  "extractRegex": "<img[^>]*src=\"([^\"]*/files/[^\"]*)\""
 }

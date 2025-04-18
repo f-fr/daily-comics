@@ -6,5 +6,6 @@
     "Richard Stevens III"
   ],
   "homepage": "http://dieselsweeties.com/",
-  "stripSource": "http://www.dieselsweeties.com/ds-unifeed.xml"
+  "stripSource": "http://www.dieselsweeties.com/ds-unifeed.xml",
+  "extractRegex": "<img[^>]*src=\"(.*/strips[^\"]*)\""
 }

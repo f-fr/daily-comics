@@ -6,5 +6,6 @@
     "Jorge Cham"
   ],
   "homepage": "https://phdcomics.com/",
-  "stripSource": "https://phdcomics.com/comics.php"
+  "stripSource": "https://phdcomics.com/comics.php",
+  "extractRegex": "<img id=comic[^>]*src=([^ ]*)"
 }

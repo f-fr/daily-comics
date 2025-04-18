@@ -6,5 +6,6 @@
     "Jeph Jacques"
   ],
   "homepage": "https://questionablecontent.net/",
-  "stripSource": "https://www.questionablecontent.net/QCRSS.xml"
+  "stripSource": "https://www.questionablecontent.net/QCRSS.xml",
+  "extractRegex": "<img[^>]*src=\"(.*/comics/[^\"]*)\""
 }

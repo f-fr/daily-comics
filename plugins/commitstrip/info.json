@@ -7,5 +7,6 @@
     "Thomas Gx"
   ],
   "homepage": "https://www.commitstrip.com/en/",
-  "stripSource": "https://www.commitstrip.com/en/feed/"
+  "stripSource": "https://www.commitstrip.com/en/feed/",
+  "extractRegex": "<img[^>]*src=\"([^\"]*/wp-content/uploads/[^\"]*)\""
 }

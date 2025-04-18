@@ -6,5 +6,6 @@
     "Charles Monroe Schulz"
   ],
   "homepage": "https://www.peanuts.com/",
-  "stripSource": "https://www.gocomics.com/peanuts"
+  "stripSource": "https://www.gocomics.com/peanuts",
+  "extractRegex": "imageSrcSet=\"(http[^\" ?]+)"
 }

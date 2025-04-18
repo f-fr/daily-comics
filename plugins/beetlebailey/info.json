@@ -6,5 +6,6 @@
     "Mort Walker"
   ],
   "homepage": "https://comicskingdom.com/beetle-bailey-1",
-  "stripSource": "https://comicskingdom.com/beetle-bailey-1"
+  "stripSource": "https://comicskingdom.com/beetle-bailey-1",
+  "extractRegex": "\"single\":\\{\"url\":\"(https:[^\"]+)"
 }

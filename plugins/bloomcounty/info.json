@@ -6,5 +6,6 @@
     "Berkeley Breathed"
   ],
   "homepage": "https://www.berkeleybreathed.com/",
-  "stripSource": "https://www.gocomics.com/bloomcounty"
+  "stripSource": "https://www.gocomics.com/bloomcounty",
+  "extractRegex": "imageSrcSet=\"(http[^\" ?]+)"
 }

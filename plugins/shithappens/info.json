@@ -6,5 +6,6 @@
     "Ralph Ruthe"
   ],
   "homepage": "https://ruthe.de/",
-  "stripSource": "https://ruthe.de/cartoon/"
+  "stripSource": "https://ruthe.de/cartoon/",
+  "extractRegex": "<img[^>]*src=\"(.*/cartoons/[^\"]*)\""
 }

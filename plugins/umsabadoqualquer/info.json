@@ -6,5 +6,6 @@
     "Carlos Ruas"
   ],
   "homepage": "https://www.umsabadoqualquer.com/",
-  "stripSource": "https://www.umsabadoqualquer.com/feed/"
+  "stripSource": "https://www.umsabadoqualquer.com/feed/",
+  "extractRegex": "<img[^>]*src=\"([^\"]*/wp-content/uploads/[^\"]*/[0-9]*-[^\"]*)\""
 }

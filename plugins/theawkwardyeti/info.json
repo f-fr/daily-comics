@@ -6,5 +6,6 @@
     "Nick Seluk"
   ],
   "homepage": "https://theawkwardyeti.com/",
-  "stripSource": "https://theawkwardyeti.com/"
+  "stripSource": "https://theawkwardyeti.com/",
+  "extractRegex": "<img[^>]*src=\"([^\"]*/wp-content/uploads/[^\"]*)\""
 }

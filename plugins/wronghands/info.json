@@ -6,5 +6,6 @@
     "John Atkinson"
   ],
   "homepage": "https://wronghands1.com/",
-  "stripSource": "https://wronghands1.com/feed/"
+  "stripSource": "https://wronghands1.com/feed/",
+  "extractRegex": "<img[^>]*src=\"(.*wronghands1.files.wordpress.com/[^\"]*)\""
 }

@@ -7,5 +7,6 @@
     "Wayne \"Wayno\" Honath"
   ],
   "homepage": "https://comicskingdom.com/bizarro/about",
-  "stripSource": "https://comicskingdom.com/bizarro"
+  "stripSource": "https://comicskingdom.com/bizarro",
+  "extractRegex": "\"single\":\\{\"url\":\"(https:[^\"]+)"
 }

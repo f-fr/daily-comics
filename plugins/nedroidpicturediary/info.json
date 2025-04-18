@@ -6,5 +6,6 @@
     "Anthony Clark"
   ],
   "homepage": "https://nedroid.com/",
-  "stripSource": "https://nedroid.com/"
+  "stripSource": "https://nedroid.com/",
+  "extractRegex": "<img[^>]*src\\s*=\\s*\"(\\bcomics/[^\"]+)\""
 }

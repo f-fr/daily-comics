@@ -6,5 +6,6 @@
     "Doug Savage"
   ],
   "homepage": "https://www.savagechickens.com/",
-  "stripSource": "https://www.savagechickens.com/feed"
+  "stripSource": "https://www.savagechickens.com/feed",
+  "extractRegex": "<img[^>]*src=\"([^\"]*/wp-content/uploads/[^\"]*)\""
 }

@@ -6,5 +6,6 @@
     "Marzi"
   ],
   "homepage": "https://introvertdoodles.com/",
-  "stripSource": "https://introvertdoodles.com/"
+  "stripSource": "https://introvertdoodles.com/",
+  "extractRegex": "<img[^>]*src=\"([^\"]*/wp-content/uploads/[^\"]*)\""
 }

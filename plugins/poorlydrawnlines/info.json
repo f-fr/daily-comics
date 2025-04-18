@@ -6,5 +6,6 @@
     "Reza Farazmand"
   ],
   "homepage": "https://poorlydrawnlines.com/",
-  "stripSource": "http://feeds.feedburner.com/PoorlyDrawnLines?format=xml"
+  "stripSource": "http://feeds.feedburner.com/PoorlyDrawnLines?format=xml",
+  "extractRegex": "<img[^>]*src=\"([^\"]*/wp-content/uploads/[^\"]*)\""
 }

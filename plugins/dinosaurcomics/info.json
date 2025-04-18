@@ -6,5 +6,6 @@
     "Ryan North"
   ],
   "homepage": "https://qwantz.com/",
-  "stripSource": "https://qwantz.com/index.php"
+  "stripSource": "https://qwantz.com/index.php",
+  "extractRegex": "<img[^>]*src=\"(comics/[^\"]*)\""
 }

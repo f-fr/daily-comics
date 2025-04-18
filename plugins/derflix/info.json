@@ -6,5 +6,6 @@
     "Felix Görmann"
   ],
   "homepage": "https://www.der-flix.de/",
-  "stripSource": "https://www.der-flix.de/index.php/glueckskind-2"
+  "stripSource": "https://www.der-flix.de/index.php/glueckskind-2",
+  "extractRegex": "href=\"(/images/djmediatools/[^\"]*)\""
 }

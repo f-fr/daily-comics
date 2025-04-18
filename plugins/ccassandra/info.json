@@ -6,5 +6,6 @@
     "Cassandra Calin"
   ],
   "homepage": "https://cassandracalin.tumblr.com/",
-  "stripSource": "https://cassandracalin.tumblr.com/rss"
+  "stripSource": "https://cassandracalin.tumblr.com/rss",
+  "extractRegex": "&lt;img src=\"(https:[^\"]+)\""
 }

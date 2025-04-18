@@ -6,5 +6,6 @@
     "Ben Zaehringer"
   ],
   "homepage": "https://www.berkeleymews.com/",
-  "stripSource": "https://www.berkeleymews.com/"
+  "stripSource": "https://www.berkeleymews.com/",
+  "extractRegex": "<img[^>]* src=\"([^\"]+)\"[^>]* class=\"aligncenter size-full"
 }

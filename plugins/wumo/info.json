@@ -7,5 +7,6 @@
     "Anders Morgenthaler"
   ],
   "homepage": "http://wumo.com/",
-  "stripSource": "http://wumo.com/"
+  "stripSource": "http://wumo.com/",
+  "extractRegex": "<img[^>]*src=\"([^\"]*/img/wumo/[^\"]*)\""
 }

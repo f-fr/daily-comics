@@ -7,5 +7,6 @@
     "Elisabeth Pich"
   ],
   "homepage": "https://warandpeas.com/",
-  "stripSource": "https://warandpeas.com/"
+  "stripSource": "https://warandpeas.com/",
+  "extractRegex": "<img[^>]* data-orig-file=\"([^\"?]+\\.[-+_0-9A-Za-z]+)[\"?][^>]* class"
 }

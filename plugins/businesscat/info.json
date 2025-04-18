@@ -6,5 +6,6 @@
     "Tom Fonder"
   ],
   "homepage": "https://www.businesscatcomic.com/",
-  "stripSource": "https://www.businesscatcomic.com/"
+  "stripSource": "https://www.businesscatcomic.com/",
+  "extractRegex": "<img[^>]*src=\"([^\"]*/wp-content/uploads/[^\"]*)\""
 }

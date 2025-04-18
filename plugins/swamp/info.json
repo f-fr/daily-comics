@@ -6,5 +6,6 @@
     "Gary Clark"
   ],
   "homepage": "https://swamp.com.au/",
-  "stripSource": "https://swamp.com.au/"
+  "stripSource": "https://swamp.com.au/",
+  "extractRegex": "<img[^>]+src=\"([^\"]+)\"[^>]+alt=\"Swamp\\s+Cartoon\\s+of\\s+the\\s+Day"
 }

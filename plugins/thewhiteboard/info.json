@@ -6,5 +6,6 @@
     "\"Doc\" Nickel"
   ],
   "homepage": "https://www.the-whiteboard.com/",
-  "stripSource": "https://www.the-whiteboard.com/"
+  "stripSource": "https://www.the-whiteboard.com/",
+  "extractRegex": "<img SRC=\"([^\"]*)\""
 }

@@ -6,5 +6,6 @@
     "Kimmo Lemetti (Morriperkele / Morr)"
   ],
   "homepage": "https://www.blastwave-comic.com/",
-  "stripSource": "https://www.blastwave-comic.com/"
+  "stripSource": "https://www.blastwave-comic.com/",
+  "extractRegex": "<img[^>]*src=\"(comics/[^\"]*)\""
 }

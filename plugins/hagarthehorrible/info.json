@@ -7,5 +7,6 @@
     "Chris Browne"
   ],
   "homepage": "https://comicskingdom.com/hagar-the-horrible",
-  "stripSource": "https://comicskingdom.com/hagar-the-horrible"
+  "stripSource": "https://comicskingdom.com/hagar-the-horrible",
+  "extractRegex": "\"single\":\\{\"url\":\"(https:[^\"]+)"
 }

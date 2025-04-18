@@ -6,5 +6,6 @@
     "Bill Watterson"
   ],
   "homepage": "https://calvinandhobbes.com/",
-  "stripSource": "https://www.gocomics.com/calvinandhobbes"
+  "stripSource": "https://www.gocomics.com/calvinandhobbes",
+  "extractRegex": "imageSrcSet=\"(http[^\" ?]+)"
 }

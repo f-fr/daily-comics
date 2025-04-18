@@ -7,5 +7,6 @@
     "Constantin Orasanu"
   ],
   "homepage": "https://www.monkeyuser.com/",
-  "stripSource": "https://www.monkeyuser.com"
+  "stripSource": "https://www.monkeyuser.com",
+  "extractRegex": "<img [^>]*src=(/\\d{4}/[^ >]+)"
 }
