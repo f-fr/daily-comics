@@ -78,12 +78,15 @@ void FavoriteComicsModel::updateComics(const QJsonDocument& updateInfo)
         {
             info.stripSourceUrl = QUrl(update["stripSource"].toString());
         }
-        (*it)->setInfo(info);
-
-        if (update.contains("extractJson") && update["extractJson"].isString())
+        if (update.contains("extractRegex") && update["extractRegex"].isString())
         {
-            (*it)->setExtractScript(update["extractJson"].toString());
+            info.extractRegex = QRegularExpression(update["extractRegex"].toString());
         }
+        if (update.contains("extractReplacement") && update["extractReplacement"].isString())
+        {
+            info.extractReplacement = update["extractReplacement"].toString();
+        }
+        (*it)->setInfo(info);
     }
 }
 
