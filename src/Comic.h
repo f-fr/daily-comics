@@ -15,6 +15,7 @@
 #include <QLocale>
 #include <QDateTime>
 #include <QTimer>
+#include <QRegularExpression>
 
 class QNetworkAccessManager;
 class QNetworkReply;
@@ -29,6 +30,13 @@ struct ComicInfo {
     QUrl homepage;
     QLocale::Language language;
     QUrl stripSourceUrl;
+    /// A regular expression used to extract the comic url from the downloaded page.
+    QRegularExpression extractRegex;
+    /// A replacement string to apply to the extraction match.
+    ///
+    /// The string may contain substitution references \1, \2, ... corresponding to the
+    /// the subexpressions of `extractRegex`. The default value is "\1".
+    QString extractReplacement;
 
     ComicInfo() {
         name = QString();
@@ -37,6 +45,8 @@ struct ComicInfo {
         homepage = QString();
         language = QLocale::AnyLanguage;
         stripSourceUrl = QUrl();
+        extractRegex = QRegularExpression();
+        extractReplacement = QStringLiteral("\\1");
     }
 };
 
@@ -58,6 +68,8 @@ public:
     QUrl homepage() const { return m_info.homepage; }
     QLocale::Language language() const { return m_info.language; }
     QUrl stripSourceUrl() const { return m_info.stripSourceUrl; }
+    QRegularExpression extractRegex() const { return m_info.extractRegex; }
+    QString extractReplacement() const { return m_info.extractReplacement; }
     ComicInfo getInfo() const { return m_info; }
 
     QUrl stripImageUrl() const { return m_stripImageUrl; }

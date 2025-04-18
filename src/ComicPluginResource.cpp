@@ -99,6 +99,18 @@ ComicInfo ComicPluginResource::parseInfo(QByteArray infoData)
 	info.color          = QColor('#' + infoJson.value("color").toString());
 	info.language       = QLocale(infoJson.value("language").toString()).language();
 
+	// Read (optional) extractRegex and extractReplacement values, but do not
+	// overwrite default values.
+	auto info_extractRegex = infoJson.value("extractRegex").toString();
+	if (!info_extractRegex.isEmpty()) {
+		info.extractRegex   = QRegularExpression(info_extractRegex);
+	}
+
+	auto info_extractReplacement = infoJson.value("extractReplacment").toString();
+	if (!info_extractReplacement.isEmpty()) {
+		info.extractReplacement = info_extractReplacement;
+	}
+
 	foreach (const QJsonValue & author, infoJson.value("authors").toArray())
 		info.authors << author.toString();
 
@@ -108,7 +120,22 @@ ComicInfo ComicPluginResource::parseInfo(QByteArray infoData)
 QUrl ComicPluginResource::extractStripImageUrl(Comic *comic, QByteArray data)
 {
 	QByteArray script;
-	if (comic->extractScript().isEmpty())
+	if (comic->extractRegex() != QRegularExpression())
+	{
+		// do not use the extraction script, just a plain regex
+		auto re = comic->extractRegex();
+		auto match = re.match(data);
+		if (!match.hasMatch()) {
+			return QUrl();
+		}
+
+		auto result = comic->extractReplacement();
+		for (int i = 1; i <= re.captureCount(); i++) {
+			result.replace(QStringLiteral("\\%1").arg(i), match.captured(i));
+		}
+		return QUrl(result);
+	}
+	else if (comic->extractScript().isEmpty())
 	{
 		QString scriptFilePath = path(comic->id(), _extractScriptFilename);
 		QFile scriptFile(scriptFilePath);
