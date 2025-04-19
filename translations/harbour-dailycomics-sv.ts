@@ -261,19 +261,6 @@
     </message>
 </context>
 <context>
-    <name>ShareLinkPage</name>
-    <message>
-        <location filename="../qml/pages/ShareLinkPage.qml" line="25"/>
-        <source>Share comics link</source>
-        <translation>Dela seriens länk</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/ShareLinkPage.qml" line="36"/>
-        <source>No sharing accounts available.  You can add accounts in the SailfishOS settings.</source>
-        <translation>Inget delningskonto tillgängligt. Du kan lägga till konton i Sailfish OS inställningar.</translation>
-    </message>
-</context>
-<context>
     <name>SlideshowFlickHint</name>
     <message>
         <location filename="../qml/components/SlideshowFlickHint.qml" line="27"/>

@@ -312,19 +312,6 @@ si le problème n&apos;était toujours pas résolu.</translation>
     </message>
 </context>
 <context>
-    <name>ShareLinkPage</name>
-    <message>
-        <location filename="../qml/pages/ShareLinkPage.qml" line="25"/>
-        <source>Share comics link</source>
-        <translation>Partager le lien</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/ShareLinkPage.qml" line="36"/>
-        <source>No sharing accounts available. You can add accounts in settings</source>
-        <translation>Aucun compte de partage disponible. Vous pouvez néanmoins en ajouter dans les paramètres.</translation>
-    </message>
-</context>
-<context>
     <name>SlideshowFlickHint</name>
     <message>
         <location filename="../qml/components/SlideshowFlickHint.qml" line="27"/>
