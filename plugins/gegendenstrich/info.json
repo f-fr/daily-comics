@@ -1,0 +1,11 @@
+{
+  "name": "Gegen den Strich",
+  "color": "d1d4bf",
+  "language": "de",
+  "authors": [
+    "Miguel Fernandez"
+  ],
+  "homepage": "https://gegen-den-strich.com/",
+  "stripSource": "https://gegen-den-strich.com/",
+  "extractRegex": "<a id=\"cartoon\"[^>]+>\\s*<img[^>]+src=\"(/images/[^\"]+)"
+}
