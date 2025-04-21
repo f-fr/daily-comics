@@ -1,0 +1,11 @@
+{
+  "name": "Tot aber lustig",
+  "color": "8e4884",
+  "language": "de",
+  "authors": [
+    "Michael Holtschulte"
+  ],
+  "homepage": "https://totaberlustig.de/",
+  "stripSource": "https://totaberlustig.de/cartoons/",
+  "extractRegex": "<img[^>]+src=\"(https:[^\"]+)\"[^>]+class=\"attachment-full"
+}
