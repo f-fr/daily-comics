@@ -8,7 +8,7 @@
 
 import QtQuick 2.0
 import Sailfish.Silica 1.0
-
+import Sailfish.Share 1.0
 import harbour.dailycomics.Comics 1.0
 
 import "../utils"
@@ -96,16 +96,20 @@ Item {
         }
 
         IconButton {
+            ShareAction {
+                id: shareAction
+                title: comicProxy.name
+                mimeType: "image/*"
+            }
+
             id: shareButton
             icon.source: "image://theme/icon-m-share"
             anchors.verticalCenter: parent.verticalCenter
             enabled: comicProxy
             onClicked: {
-                pageStack.push(Qt.resolvedUrl("../pages/ShareLinkPage.qml"),
-                        {
-                           "link": comicProxy.stripImageUrl.toString(),
-                           "linkTitle": comicProxy.name
-                        })
+                var path = 'file://' + comicProxy.stripImagePath
+                shareAction.resources = [ path ]
+                shareAction.trigger()
             }
         }
 

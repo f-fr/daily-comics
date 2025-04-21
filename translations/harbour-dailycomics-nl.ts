@@ -4,14 +4,9 @@
 <context>
     <name>AboutPage</name>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="64"/>
-        <source>Your daily fix of your favorite comic strips</source>
-        <translation>Je dagelijkse dosis strips</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/AboutPage.qml" line="76"/>
-        <source>version %1</source>
-        <translation>versie %1</translation>
+        <location filename="../qml/pages/AboutPage.qml" line="63"/>
+        <source>Read your favourite comic strips every day.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="101"/>
@@ -309,19 +304,6 @@ het probleem zich blijft voordoen.</translation>
         <location filename="../qml/components/SettingsInfoHint.qml" line="23"/>
         <source>Hold cover to display comic info</source>
         <translation>Hou de hoes vast voor meer informatie over de strip</translation>
-    </message>
-</context>
-<context>
-    <name>ShareLinkPage</name>
-    <message>
-        <location filename="../qml/pages/ShareLinkPage.qml" line="25"/>
-        <source>Share comics link</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/ShareLinkPage.qml" line="36"/>
-        <source>No sharing accounts available. You can add accounts in settings</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
