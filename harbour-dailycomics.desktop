@@ -6,5 +6,6 @@ Icon=harbour-dailycomics
 Exec=harbour-dailycomics
 
 [X-Sailjail]
-Sandboxing=Disabled
-
+Permissions=Internet;Pictures
+OrganizationName=harbour-dailycomics
+ApplicationName=harbour-dailycomics
