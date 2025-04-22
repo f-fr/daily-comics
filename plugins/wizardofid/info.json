@@ -8,5 +8,5 @@
   ],
   "homepage": "https://www.gocomics.com/wizardofid",
   "stripSource": "https://www.gocomics.com/wizardofid",
-  "extractRegex": "imageSrcSet=\"(http[^\" ?]+)"
+  "extractRegex": "<div><script type=\"application/ld\\+json\">\\{[^>}]*\"url\":\"(https://featureassets\\.[^\" ?]+)"
 }
