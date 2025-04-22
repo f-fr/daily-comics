@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="de">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="de">
 <context>
     <name>AboutPage</name>
     <message>
@@ -144,7 +146,10 @@
     <message numerus="yes">
         <location filename="../qml/cover/DefaultCover.qml" line="44"/>
         <source>%n new comic(s)</source>
-        <translation><numerusform>%n neues Comic</numerusform><numerusform>%n neue Comics</numerusform></translation>
+        <translation>
+            <numerusform>%n neues Comic</numerusform>
+            <numerusform>%n neue Comics</numerusform>
+        </translation>
     </message>
 </context>
 <context>
@@ -236,12 +241,18 @@
     <message numerus="yes">
         <location filename="../qml/utils/ProgressInfoBar.qml" line="72"/>
         <source>%n New</source>
-        <translation><numerusform>%n neu</numerusform><numerusform>%n neue</numerusform></translation>
+        <translation>
+            <numerusform>%n neu</numerusform>
+            <numerusform>%n neue</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../qml/utils/ProgressInfoBar.qml" line="99"/>
         <source>%n Error(s)</source>
-        <translation><numerusform>%n Fehler</numerusform><numerusform>%n Fehler</numerusform></translation>
+        <translation>
+            <numerusform>%n Fehler</numerusform>
+            <numerusform>%n Fehler</numerusform>
+        </translation>
     </message>
 </context>
 <context>
