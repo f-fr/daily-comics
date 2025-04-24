@@ -7,5 +7,5 @@
   ],
   "homepage": "https://totaberlustig.de/",
   "stripSource": "https://totaberlustig.de/cartoons/",
-  "extractRegex": "<img[^>]+src=\"(https:[^\"]+)\"[^>]+class=\"attachment-full"
+  "extractRegex": "\"contentUrl\":\"(https:[^\"]+)"
 }
