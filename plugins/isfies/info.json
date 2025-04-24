@@ -1,0 +1,11 @@
+{
+  "name": "Is fies!",
+  "color": "b54bff",
+  "language": "de",
+  "authors": [
+    "Ey Lou Flynn"
+  ],
+  "homepage": "https://islieb.de/finde/isfies/",
+  "stripSource": "https://islieb.de/finde/isfies/feed/",
+  "extractRegex": "<img[^>]*src=\"([^\"]*/wp-content/uploads/[^\"]*)\""
+}
