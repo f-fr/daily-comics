@@ -10,6 +10,7 @@ collected in the single `integrate` branch.
 
 - ccassandra
 - gegendenstrich
+- isfies
 - nedroid
 - sigmund
 - totaberlustig
