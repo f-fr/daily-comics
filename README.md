@@ -57,6 +57,7 @@ The app is *not* available from an app-store. However, precompiled packages can 
 
 [sfos]: https://sailfishos.org
 [dc]: https://github.com/sailfishos-applications/daily-comics
+[obs]: https://build.sailfishos.org/
 
 [aarch64]: https://build.sailfishos.org/package/binaries/home:fifr/daily-comics?repository=sailfish_latest_aarch64
 [armv7hl]: https://build.sailfishos.org/package/binaries/home:fifr/daily-comics?repository=sailfish_latest_armv7hl
