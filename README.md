@@ -46,5 +46,17 @@ collected in the single `integrate` branch.
    
 3. **branch: share**: Fixes the broken "share" button in the app
 
+## Download
+
+The app is *not* available from an app-store. However, precompiled packages can be downloaded from [SailfishOS OBS][obs]:
+
+ - [aarch64][aarch64]
+ - [armv7hl][armv7hl]
+ - [i486][i486]
+
 [sfos]: https://sailfishos.org
 [dc]: https://github.com/sailfishos-applications/daily-comics
+
+[aarch64]: https://build.sailfishos.org/package/binaries/home:fifr/daily-comics?repository=sailfish_latest_aarch64
+[armv7hl]: https://build.sailfishos.org/package/binaries/home:fifr/daily-comics?repository=sailfish_latest_armv7hl
+[i486]: https://build.sailfishos.org/package/binaries/home:fifr/daily-comics?repository=sailfish_latest_i486
