@@ -13,6 +13,7 @@ collected in the single `integrate` branch.
 - isfies
 - nedroid
 - sigmund
+- spiegel
 - totaberlustig
 
 ### Features

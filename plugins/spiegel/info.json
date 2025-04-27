@@ -7,6 +7,6 @@
     "Klaus Stuttmann"
   ],
   "homepage": "https://www.spiegel.de/",
-  "stripSource": "https://www.spiegel.de/",
-  "extractRegex": "<img[^>]*src=\"([^\"]*)\"[^>]*title=\"Cartoon des Tages[^\"]*\""
+  "stripSource": "https://www.spiegel.de/fotostrecke/cartoon-des-tages-fotostrecke-142907.html",
+  "extractRegex": "<img class=\"absolute[^>]+max-h-screen[^>]+src=\"(https:[^ \"]+\\.jpg)"
 }
