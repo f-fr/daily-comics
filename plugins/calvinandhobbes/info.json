@@ -7,5 +7,5 @@
   ],
   "homepage": "https://calvinandhobbes.com/",
   "stripSource": "https://www.gocomics.com/calvinandhobbes",
-  "extractRegex": "imageSrcSet=\"(http[^\" ?]+)"
+  "extractRegex": "<div><script type=\"application/ld\\+json\">\\{[^>}]*\"url\":\"(https://featureassets\\.[^\" ?]+)"
 }

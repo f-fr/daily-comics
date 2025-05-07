@@ -7,5 +7,5 @@
   ],
   "homepage": "https://www.gocomics.com/andycapp",
   "stripSource": "https://www.gocomics.com/andycapp",
-  "extractRegex": "imageSrcSet=\"(http[^\" ?]+)"
+  "extractRegex": "<div><script type=\"application/ld\\+json\">\\{[^>}]*\"url\":\"(https://featureassets\\.[^\" ?]+)"
 }

@@ -7,5 +7,5 @@
   ],
   "homepage": "https://www.gocomics.com/cheer-up-emo-kid",
   "stripSource": "https://www.gocomics.com/cheer-up-emo-kid",
-  "extractRegex": "imageSrcSet=\"(http[^\" ?]+)"
+  "extractRegex": "<div><script type=\"application/ld\\+json\">\\{[^>}]*\"url\":\"(https://featureassets\\.[^\" ?]+)"
 }

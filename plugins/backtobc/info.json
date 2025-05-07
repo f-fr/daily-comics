@@ -6,5 +6,6 @@
     "John Hart"
   ],
   "homepage": "https://www.gocomics.com/back-to-bc/about",
-  "stripSource": "https://www.gocomics.com/back-to-bc"
+  "stripSource": "https://www.gocomics.com/back-to-bc",
+  "extractRegex": "<div><script type=\"application/ld\\+json\">\\{[^>}]*\"url\":\"(https://featureassets\\.[^\" ?]+)"
 }

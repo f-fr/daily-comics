@@ -7,5 +7,5 @@
   ],
   "homepage": "https://www.berkeleybreathed.com/",
   "stripSource": "https://www.gocomics.com/bloomcounty",
-  "extractRegex": "imageSrcSet=\"(http[^\" ?]+)"
+  "extractRegex": "<div><script type=\"application/ld\\+json\">\\{[^>}]*\"url\":\"(https://featureassets\\.[^\" ?]+)"
 }
