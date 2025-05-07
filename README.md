@@ -15,6 +15,7 @@ collected in the single `integrate` branch.
 - sigmund
 - spiegel
 - totaberlustig
+- gocomics hosted comics
 
 ### Features
 
