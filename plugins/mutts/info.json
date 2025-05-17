@@ -6,5 +6,6 @@
     "Patrick McDonnell"
   ],
   "homepage": "https://mutts.com/",
-  "stripSource": "https://mutts.com/"
+  "stripSource": "https://mutts.com/",
+  "extractRegex": "<div\\s+class=\"the-daily-mutts-[^\"]+\">\\s+<img\\s+src=\"([^? \"]+)"
 }
