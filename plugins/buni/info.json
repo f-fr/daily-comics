@@ -7,5 +7,5 @@
   ],
   "homepage": "https://www.bunicomic.com/",
   "stripSource": "https://www.bunicomic.com/",
-  "extractRegex": "<div id=\"comic\">\\n[:blank:]*<img[^>]*src=\"([^\"]*/wp-content/uploads/[^\"]*)\""
+  "extractRegex": "<div\\s+id=\"comic\">\\s+<img\\s+src=\"([^? \"]+)"
 }

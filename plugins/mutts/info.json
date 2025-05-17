@@ -7,5 +7,5 @@
   ],
   "homepage": "https://mutts.com/",
   "stripSource": "https://mutts.com/",
-  "extractRegex": "\"(https://mutts.com/wp-content/uploads/20[^\"]*.gif)\""
+  "extractRegex": "<div\\s+class=\"the-daily-mutts-[^\"]+\">\\s+<img\\s+src=\"([^? \"]+)"
 }
