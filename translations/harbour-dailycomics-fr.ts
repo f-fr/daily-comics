@@ -4,62 +4,50 @@
 <context>
     <name>AboutPage</name>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="64"/>
-        <source>Your daily fix of your favorite comic strips</source>
-        <translation>Vos BD favorites au quotidien</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/AboutPage.qml" line="76"/>
-        <source>version %1</source>
-        <translation>version %1</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/AboutPage.qml" line="101"/>
-        <source>created by %1</source>
-        <translation>par %1</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/AboutPage.qml" line="159"/>
-        <source>maintained by %1</source>
+        <location filename="../qml/pages/AboutPage.qml" line="63"/>
+        <source>Read your favourite comic strips every day.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="201"/>
-        <source>The source code is available at
-                       &lt;br/&gt;&lt;a href=&apos;%1&apos;&gt;%2&lt;/a&gt;
-                       &lt;br/&gt;You can contact me for any remarks,
-                       &lt;br/&gt;bugs, feature requests, ideas,...
-                       &lt;br/&gt;
-                       &lt;br/&gt;Below are few resources to find new comics.
-                       &lt;br/&gt;Let me know as well which additional comics
-                       &lt;br/&gt;you would like to be included in the app.</source>
+        <location filename="../qml/pages/AboutPage.qml" line="79"/>
+        <source>Version %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="237"/>
-        <source>Enjoy!</source>
-        <translation>Bonne lecture !</translation>
+        <location filename="../qml/pages/AboutPage.qml" line="92"/>
+        <source>&lt;a href=&quot;%1&quot;&gt;Source code repository&lt;/a&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="107"/>
+        <source>License: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="121"/>
+        <source>&lt;a href=&quot;%1&quot;&gt;Issue tracker for bug reports, feature suggestions and help requests&lt;/a&gt;</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>ComicInfoPage</name>
     <message>
-        <location filename="../qml/pages/ComicInfoPage.qml" line="47"/>
+        <location filename="../qml/pages/ComicInfoPage.qml" line="46"/>
         <source>Comic info</source>
         <translation>Infos</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ComicInfoPage.qml" line="51"/>
+        <location filename="../qml/pages/ComicInfoPage.qml" line="50"/>
         <source>Authors</source>
         <translation>Auteurs</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ComicInfoPage.qml" line="51"/>
+        <location filename="../qml/pages/ComicInfoPage.qml" line="50"/>
         <source>Author</source>
         <translation>Auteur</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ComicInfoPage.qml" line="56"/>
+        <location filename="../qml/pages/ComicInfoPage.qml" line="55"/>
         <source>Language</source>
         <translation>Langue</translation>
     </message>
@@ -67,22 +55,32 @@
 <context>
     <name>ComicInfoPanel</name>
     <message>
-        <location filename="../qml/components/ComicInfoPanel.qml" line="69"/>
+        <location filename="../qml/components/ComicInfoPanel.qml" line="63"/>
+        <source>Name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/components/ComicInfoPanel.qml" line="81"/>
         <source>Authors</source>
         <translation>Auteurs</translation>
     </message>
     <message>
-        <location filename="../qml/components/ComicInfoPanel.qml" line="69"/>
+        <location filename="../qml/components/ComicInfoPanel.qml" line="81"/>
         <source>Author</source>
         <translation>Auteur</translation>
     </message>
     <message>
-        <location filename="../qml/components/ComicInfoPanel.qml" line="86"/>
+        <location filename="../qml/components/ComicInfoPanel.qml" line="98"/>
         <source>Language</source>
         <translation>Langue</translation>
     </message>
     <message>
-        <location filename="../qml/components/ComicInfoPanel.qml" line="125"/>
+        <location filename="../qml/components/ComicInfoPanel.qml" line="116"/>
+        <source>Example</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/components/ComicInfoPanel.qml" line="151"/>
         <source>Go to homepage</source>
         <translation>Accéder à la source</translation>
     </message>
@@ -96,49 +94,49 @@
     </message>
     <message>
         <location filename="../qml/components/ComicItem.qml" line="30"/>
-        <source>Can&apos;t display comic</source>
-        <translation type="unfinished">Impossible d&apos;afficher la BD</translation>
+        <source>Cannot display comic</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/components/ComicItem.qml" line="31"/>
-        <source>Can&apos;t download comic</source>
-        <translation type="unfinished">Impossible de télécharger la BD</translation>
+        <source>Cannot download comic</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/components/ComicItem.qml" line="32"/>
-        <source>Can&apos;t extract comic</source>
-        <translation type="unfinished">Impossible d&apos;extraire la BD</translation>
+        <source>Cannot extract comic</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/components/ComicItem.qml" line="33"/>
-        <source>Can&apos;t save comic</source>
-        <translation type="unfinished">Impossible de sauvegarder la BD</translation>
+        <source>Cannot save comic</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/components/ComicItem.qml" line="72"/>
-        <source>Please contact me if the problem persists.</source>
-        <translation>Merci de me contacter si le problème n&apos;était toujours pas résolu.</translation>
+        <location filename="../qml/components/ComicItem.qml" line="68"/>
+        <source>Please report if this issue persists.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>ComicsSettingsPage</name>
     <message>
-        <location filename="../qml/pages/ComicsSettingsPage.qml" line="34"/>
+        <location filename="../qml/pages/ComicsSettingsPage.qml" line="35"/>
         <source>Save</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ComicsSettingsPage.qml" line="35"/>
+        <location filename="../qml/pages/ComicsSettingsPage.qml" line="36"/>
         <source>Cancel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ComicsSettingsPage.qml" line="53"/>
+        <location filename="../qml/pages/ComicsSettingsPage.qml" line="54"/>
         <source>Clear all</source>
         <translation>Retirer tout</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ComicsSettingsPage.qml" line="59"/>
+        <location filename="../qml/pages/ComicsSettingsPage.qml" line="60"/>
         <source>Select all</source>
         <translation>Sélectionner tout</translation>
     </message>
@@ -157,75 +155,60 @@
 <context>
     <name>EndPanel</name>
     <message>
-        <location filename="../qml/components/EndPanel.qml" line="35"/>
+        <location filename="../qml/components/EndPanel.qml" line="36"/>
         <source>That&apos;s all for now!</source>
         <translation>C&apos;est tout pour le moment !</translation>
     </message>
     <message>
-        <location filename="../qml/components/EndPanel.qml" line="54"/>
-        <source>If you like the app, please consider supporting your favorite comic artists</source>
-        <translation>Vous aimez l&apos;appli ? Merci de supporter au mieux vos artistes préférés !</translation>
+        <location filename="../qml/components/EndPanel.qml" line="55"/>
+        <source>If you like this app, please consider to support your favorite comic artists</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/components/EndPanel.qml" line="74"/>
+        <location filename="../qml/components/EndPanel.qml" line="75"/>
         <source>Return to favorites</source>
         <translation>Retourner aux favoris</translation>
     </message>
 </context>
 <context>
-    <name>ErrorContactDevRectangle</name>
-    <message>
-        <location filename="../qml/components/ErrorContactDevRectangle.qml" line="35"/>
-        <source>Please contact me
-if the problem persists.</source>
-        <translation>Merci de me contacter
-si le problème n&apos;était toujours pas résolu.</translation>
-    </message>
-</context>
-<context>
     <name>FavoritesPage</name>
     <message>
-        <location filename="../qml/pages/FavoritesPage.qml" line="69"/>
+        <location filename="../qml/pages/FavoritesPage.qml" line="74"/>
         <source>Settings</source>
         <translation>Paramètres</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FavoritesPage.qml" line="73"/>
-        <source>Report problems with comics</source>
-        <translation>Signaler un problème avec les BD</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/FavoritesPage.qml" line="87"/>
+        <location filename="../qml/pages/FavoritesPage.qml" line="78"/>
         <source>Read all new comics</source>
         <translation>Lire les nouvelles planches</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FavoritesPage.qml" line="87"/>
+        <location filename="../qml/pages/FavoritesPage.qml" line="78"/>
         <source>No new comic</source>
         <translation>Pas de nouvelles planches</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FavoritesPage.qml" line="98"/>
+        <location filename="../qml/pages/FavoritesPage.qml" line="70"/>
         <source>About</source>
         <translation>À propos</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FavoritesPage.qml" line="105"/>
+        <location filename="../qml/pages/FavoritesPage.qml" line="87"/>
         <source>No comic selected</source>
         <translation>Aucune BD sélectionnée</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FavoritesPage.qml" line="106"/>
+        <location filename="../qml/pages/FavoritesPage.qml" line="88"/>
         <source>Choose your favorite comics in the settings page</source>
         <translation>Choisissez vos BD favorites dans les paramètres de l&apos;appli</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FavoritesPage.qml" line="126"/>
+        <location filename="../qml/pages/FavoritesPage.qml" line="108"/>
         <source>Remove from favorites</source>
         <translation>Retirer des favoris</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FavoritesPage.qml" line="146"/>
+        <location filename="../qml/pages/FavoritesPage.qml" line="128"/>
         <source>Fetching comic strips</source>
         <translation>Téléchargement des planches...</translation>
     </message>
@@ -244,36 +227,13 @@ si le problème n&apos;était toujours pas résolu.</translation>
     </message>
     <message>
         <location filename="../qml/components/ImageOverlay.qml" line="93"/>
-        <source>Comic strip url copied to clipboard</source>
+        <source>Comic strip URL copied to clipboard</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/components/ImageOverlay.qml" line="94"/>
-        <source>Unable to copy comic strip url to clipboard</source>
+        <source>Unable to copy comic strip URL to clipboard</source>
         <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>LoadingIndicator</name>
-    <message>
-        <location filename="../qml/utils/LoadingIndicator.qml" line="51"/>
-        <source>An error occured</source>
-        <translation>Une erreur est survenue</translation>
-    </message>
-    <message>
-        <location filename="../qml/utils/LoadingIndicator.qml" line="84"/>
-        <source>Network error</source>
-        <translation>Erreur de connexion</translation>
-    </message>
-    <message>
-        <location filename="../qml/utils/LoadingIndicator.qml" line="85"/>
-        <source>Parsing error</source>
-        <translation>Erreur d&apos;analyse</translation>
-    </message>
-    <message>
-        <location filename="../qml/utils/LoadingIndicator.qml" line="86"/>
-        <source>Saving error</source>
-        <translation>Erreur de sauvegarde</translation>
     </message>
 </context>
 <context>
@@ -296,11 +256,11 @@ si le problème n&apos;était toujours pas résolu.</translation>
     </message>
 </context>
 <context>
-    <name>RequestContactDevRectangle</name>
+    <name>ReportNewComicRectangle</name>
     <message>
-        <location filename="../qml/components/RequestContactDevRectangle.qml" line="43"/>
-        <source>Let me know if you&apos;re missing some of your favorite comics in this list</source>
-        <translation>Votre BD favorite n&apos;est pas dans la liste ? Contactez-moi pour me la suggérer !</translation>
+        <location filename="../qml/components/ReportNewComicRectangle.qml" line="42"/>
+        <source>Please report if you like to see some additional comic(s)</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -320,8 +280,8 @@ si le problème n&apos;était toujours pas résolu.</translation>
     </message>
     <message>
         <location filename="../qml/pages/ShareLinkPage.qml" line="36"/>
-        <source>No sharing accounts available. You can add accounts in settings</source>
-        <translation>Aucun compte de partage disponible. Vous pouvez néanmoins en ajouter dans les paramètres.</translation>
+        <source>No sharing accounts available.  You can add accounts in the SailfishOS settings.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -333,16 +293,39 @@ si le problème n&apos;était toujours pas résolu.</translation>
     </message>
 </context>
 <context>
+    <name>StatusOverlay</name>
+    <message>
+        <location filename="../qml/utils/StatusOverlay.qml" line="24"/>
+        <source>An error occured</source>
+        <translation type="unfinished">Une erreur est survenue</translation>
+    </message>
+    <message>
+        <location filename="../qml/utils/StatusOverlay.qml" line="91"/>
+        <source>Network error</source>
+        <translation type="unfinished">Erreur de connexion</translation>
+    </message>
+    <message>
+        <location filename="../qml/utils/StatusOverlay.qml" line="92"/>
+        <source>Parsing error</source>
+        <translation type="unfinished">Erreur d&apos;analyse</translation>
+    </message>
+    <message>
+        <location filename="../qml/utils/StatusOverlay.qml" line="93"/>
+        <source>Saving error</source>
+        <translation type="unfinished">Erreur de sauvegarde</translation>
+    </message>
+</context>
+<context>
     <name>ZoomableImage</name>
     <message>
-        <location filename="../qml/components/ZoomableImage.qml" line="154"/>
+        <location filename="../qml/components/ZoomableImage.qml" line="157"/>
         <source>Image error</source>
         <translation type="unfinished">Erreur lors du chargement de l&apos;image</translation>
     </message>
     <message>
-        <location filename="../qml/components/ZoomableImage.qml" line="154"/>
-        <source>Can&apos;t display strip</source>
-        <translation type="unfinished">Impossible d&apos;afficher la planche</translation>
+        <location filename="../qml/components/ZoomableImage.qml" line="157"/>
+        <source>Cannot display strip</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>
